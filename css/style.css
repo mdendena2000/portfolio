@@ -616,9 +616,9 @@ body {
 
 #skill-main li {
   margin-bottom: 29px;
-  background: #9ec5f8;
+  /* background: #9ec5f8; */
   height: 14px;
-  border-radius: 3px;
+  border-radius: 10px;
   border-left: 1px solid #9ec5f8;
   border-top: 1px solid #9ec5f8;
   border-right: 1px solid #9ec5f8;
@@ -646,43 +646,59 @@ body {
 }
 
 .html5 {
-  width: 70% !important;
-  border-radius: 10px;
-}
-.Java {
-  width: 100px !important;
-  border-radius: 10px;
-}
-.Postgre {
-  width: 100px !important;
+  width: 50% !important;
   border-radius: 10px;
 }
 .CSS {
-  width: 200px !important;
-  border-radius: 10px;
-}
-.Python {
-  width: 100px !important;
-  border-radius: 10px;
-}
-.React {
-  width: 100px !important;
+  width: 50% !important;
   border-radius: 10px;
 }
 .JavaScript {
-  width: 200px !important;
+  width: 50% !important;
   border-radius: 10px;
 }
 .TypeScript {
-  width: 100px !important;
+  width: 50% !important;
   border-radius: 10px;
 }
 .Elixir {
-  width: 200px !important;
+  width: 40% !important;
+  border-radius: 10px;
+}
+.Java {
+  width: 30% !important;
+  border-radius: 10px;
+}
+.c {
+  width: 35% !important;
+  border-radius: 10px;
+}
+.c_sharp {
+  width: 30% !important;
+  border-radius: 10px;
+}
+.r_studio {
+  width: 30% !important;
+  border-radius: 10px;
+}
+.Python {
+  width: 30% !important;
+  border-radius: 10px;
+}
+.React {
+  width: 50% !important;
+  border-radius: 10px;
+}
+.Postgre {
+  width: 30% !important;
   border-radius: 10px;
 }
 .MongoDB {
-  width: 100px !important;
+  width: 40% !important;
+  border-radius: 10px;
+}
+.unity {
+  width: 40% !important;
   border-radius: 10px;
 }
 .skill-porcent {
