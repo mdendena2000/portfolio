@@ -96,8 +96,8 @@ var pJS = function (tag_id, params) {
           mode: "grab",
         },
         onclick: {
-          enable: true,
-          mode: "push",
+          enable: false,
+          mode: "none",
         },
         resize: true,
       },
@@ -116,12 +116,6 @@ var pJS = function (tag_id, params) {
         repulse: {
           distance: 200,
           duration: 0.4,
-        },
-        push: {
-          particles_nb: 4,
-        },
-        remove: {
-          particles_nb: 2,
         },
       },
       mouse: {},
@@ -1144,25 +1138,25 @@ var pJS = function (tag_id, params) {
 
         if (pJS.interactivity.events.onclick.enable) {
           switch (pJS.interactivity.events.onclick.mode) {
-            case "push":
-              if (pJS.particles.move.enable) {
-                pJS.fn.modes.pushParticles(
-                  pJS.interactivity.modes.push.particles_nb,
-                  pJS.interactivity.mouse
-                );
-              } else {
-                if (pJS.interactivity.modes.push.particles_nb == 1) {
-                  pJS.fn.modes.pushParticles(
-                    pJS.interactivity.modes.push.particles_nb,
-                    pJS.interactivity.mouse
-                  );
-                } else if (pJS.interactivity.modes.push.particles_nb > 1) {
-                  pJS.fn.modes.pushParticles(
-                    pJS.interactivity.modes.push.particles_nb
-                  );
-                }
-              }
-              break;
+            // case "push":
+            //   if (pJS.particles.move.enable) {
+            //     pJS.fn.modes.pushParticles(
+            //       pJS.interactivity.modes.push.particles_nb,
+            //       pJS.interactivity.mouse
+            //     );
+            //   } else {
+            //     if (pJS.interactivity.modes.push.particles_nb == 1) {
+            //       pJS.fn.modes.pushParticles(
+            //         pJS.interactivity.modes.push.particles_nb,
+            //         pJS.interactivity.mouse
+            //       );
+            //     } else if (pJS.interactivity.modes.push.particles_nb > 1) {
+            //       pJS.fn.modes.pushParticles(
+            //         pJS.interactivity.modes.push.particles_nb
+            //       );
+            //     }
+            //   }
+            //   break;
 
             case "remove":
               pJS.fn.modes.removeParticles(
