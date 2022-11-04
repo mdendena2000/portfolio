@@ -113,7 +113,7 @@ body {
 }
 .navbar-nav {
   float: right;
-  margin: 17px 23px;
+  margin: 17px 10px;
   margin-right: 0px;
 }
 .navbar-nav li {
@@ -231,7 +231,7 @@ body {
 #particles-js {
   width: 100%;
   height: 100%;
-  background-color: #b61924;
+  background-color: #fff;
   background: url(../img/background.jpg) 50% 0 no-repeat fixed;
   background-size: cover;
   background-position: 50% 0%;
@@ -378,6 +378,18 @@ body {
   background-color: white;
   color: #286090;
 }
+.love-details:hover {
+  background-color: #286090;
+}
+.love-details:hover .underline1 {
+  background-color: white;
+}
+.love-details:hover .underline2 {
+  background-color: white;
+}
+.love-details:hover p {
+  color: black;
+}
 
 .about-back {
   width: 60%;
@@ -458,6 +470,8 @@ body {
   margin-bottom: 48px;
   margin-top: 33px;
   margin-right: 102px;
+  text-align: justify;
+  width: 100%;
 }
 .text-2 {
   padding-bottom: 30px;
@@ -711,7 +725,6 @@ body {
 .Developing.start  { width:81%;  -moz-animation:Developing 2s ease-out;      -webkit-animation:Developing 2s ease-out;    position: relative;  float: left;  }
 .Photoshop.start   { width:100%;  -moz-animation:Photoshop 2s ease-out;   -webkit-animation:Photoshop 2s ease-out;   position: relative;  float: left;}
 .Photography.start { width:100%; -moz-animation:Photography 2s ease-out; -webkit-animation:Photography 2s ease-out;   position: relative;  float: left;} */
-
 
 /* @-moz-keyframes Web       { 0%  { width:0px;} 100%{ width:84%;}  }
 @-moz-keyframes Graphics        { 0%  { width:0px;} 100%{ width:90%;}  }
@@ -1865,6 +1878,123 @@ ontrol::-webkit-input-placeholder {
   color: black;
 }
 
+/*=========================================================================== CERTIFICADO ===============================================================*/
+
+#formacao {
+  width: 100%;
+  /* background-color: #fbfbfb; */
+  position: relative;
+  margin-top: 0px;
+}
+.formacao-main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 111;
+  padding-bottom: 51px;
+  padding-top: 80px;
+}
+
+.formacao-title {
+  padding-top: 0px;
+}
+
+/* .formacao-under {
+  background-color: white;
+} */
+.formacao-details {
+  padding-top: 0px;
+}
+.formacao-details p {
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: #3c3c3c;
+  padding: 0px;
+  line-height: 27px;
+  margin-top: 0px;
+}
+.content {
+  width: 100%;
+  margin: 0;
+  position: relative;
+  float: left;
+  font-size: 12px;
+  line-height: 2em;
+}
+.col {
+  width: 100%;
+}
+
+#formacao-main {
+  list-style: none;
+  padding: 26px 20px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+#formacao-main li {
+  margin-bottom: 29px;
+  /* background: #9ec5f8; */
+  height: 14px;
+  border-radius: 10px;
+  border-left: 1px solid #9ec5f8;
+  border-top: 1px solid #9ec5f8;
+  border-right: 1px solid #9ec5f8;
+  border-bottom: 1px solid #9ec5f8;
+}
+#formacao-main h3 {
+  margin: 0px;
+  position: absolute;
+  margin-top: -20px;
+  font-size: 13px;
+  color: #333;
+}
+#formacao-main li em {
+  position: relative;
+  top: -30px;
+  float: left;
+  color: white;
+}
+
+.expand {
+  height: 8px;
+  margin: 2px 2px;
+  background: #286090;
+  position: absolute;
+}
+
+.concluido {
+  width: 91.5% !important;
+  border-radius: 10px;
+}
+.cursando {
+  width: 45.5% !important;
+  border-radius: 10px;
+}
+.novo {
+  width: 1% !important;
+  border-radius: 10px;
+}
+
+.formacao-porcent {
+  position: relative !important;
+  float: right;
+}
+
+.formacao-null {
+  border-color: #fff !important;
+}
+
+/*=============================================================== CERTIFICADOs ======================================================*/
+
+.table-certificados {
+  width: 100%;
+}
+
+.tr-certificados {
+  border-bottom: 1pt solid #ede7e7;
+}
+
 /*=============================================================== RESPONSIVE ======================================================*/
 
 @media screen and (max-width: 768px) {
@@ -1923,6 +2053,8 @@ ontrol::-webkit-input-placeholder {
     margin-bottom: 48px;
     margin-top: 33px;
     margin-right: 0px;
+    text-align: justify;
+    width: 100%;
   }
 }
 
