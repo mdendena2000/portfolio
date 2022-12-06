@@ -285,7 +285,7 @@ body {
   letter-spacing: 2px;
   color: #bbb5ac;
   margin-top: 0px;
-  font-weight: 900;
+  font-weight: 500;
   line-height: 30px;
 }
 .main-title p {
@@ -994,6 +994,10 @@ body {
   -o-transition: 0.4s;
   background-color: #204d73;
   position: relative;
+}
+
+.height-exp{
+  height: 350px;
 }
 
 /*=========================================================================== WORK ===============================================================*/
@@ -2176,11 +2180,23 @@ ontrol::-webkit-input-placeholder {
     float: none;
   }
   .cd-headline.clip span {
-    font-size: 42px;
+    font-size: 35px;
     color: #204d73;
     font-family: "Roboto Slab", serif;
     letter-spacing: 2px;
     font-weight: 900;
+  }
+}
+
+@media screen and (max-width: 470px){
+  .height-exp{
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .cd-headline.clip span {
+    font-size: 30px;
   }
 }
 
@@ -2304,5 +2320,9 @@ ontrol::-webkit-input-placeholder {
     margin-top: 30px;
     height: auto;
     margin-bottom: 0px;
+  }
+
+  .height-exp{
+    height: 450px;
   }
 }
