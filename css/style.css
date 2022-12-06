@@ -2196,7 +2196,7 @@ ontrol::-webkit-input-placeholder {
 
 @media screen and (max-width: 360px){
   .cd-headline.clip span {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 
@@ -2324,5 +2324,35 @@ ontrol::-webkit-input-placeholder {
 
   .height-exp{
     height: 450px;
+  }
+}
+
+@media screen and (max-width: 950px){
+  .cd-headline.clip span {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .cd-headline.clip span {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .cd-headline.clip span {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .cd-headline.clip span {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 350px){
+  .cd-headline.clip span {
+    font-size: 20px;
   }
 }
