@@ -1987,7 +1987,7 @@ ontrol::-webkit-input-placeholder {
 }
 
 .formacao-null {
-  border-color: #bbb5ac !important;
+  border-color: #bbb5ac00 !important;
 }
 
 /*=============================================================== CERTIFICADOs ======================================================*/
@@ -1997,7 +1997,10 @@ ontrol::-webkit-input-placeholder {
 }
 
 .tr-certificados {
-  border-bottom: 1pt solid #ede7e7;
+  color: #ede7e7;
+}
+.tr-certificados td{
+  color: #ede7e77d;
 }
 
 /*=============================================================== RESPONSIVE ======================================================*/
