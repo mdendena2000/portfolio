@@ -1975,10 +1975,13 @@ ontrol::-webkit-input-placeholder {
 .cursando {
   width: 45.5% !important;
   border-radius: 10px;
+  background: rgb(150, 112, 0);
 }
+
 .novo {
   width: 1% !important;
   border-radius: 10px;
+  background: rgb(80, 80, 80);
 }
 
 .formacao-porcent {
@@ -2329,6 +2332,42 @@ ontrol::-webkit-input-placeholder {
   .height-exp{
     height: 450px;
   }
+}
+
+.legenda-disciplinas {
+  min-width: 40px;
+}
+.badge-primary {
+  color: rgb(232, 230, 227);
+  background-color: rgb(0, 98, 204);
+}
+.badge-info {
+  color: rgb(232, 230, 227);
+  background-color: rgb(18, 130, 147);
+}
+.badge-warning {
+  color: rgb(209, 205, 199);
+  background-color: rgb(150, 112, 0);
+}
+.badge-error {
+  color: rgb(209, 205, 199);
+  background-color: rgb(150, 0, 0);
+}
+.badge-promisse {
+  color: rgb(209, 205, 199);
+  background-color: rgb(80, 80, 80);
+}
+.badge {
+  display: inline-block;
+  padding: .25em .4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 @media screen and (max-width: 950px){
